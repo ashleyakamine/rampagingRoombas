@@ -1,0 +1,21 @@
+[0.568s] Invoking command in '/home/ashley.akamine/turtlebot4_ws/src/lab1_pkg': PYTHONPATH=/home/ashley.akamine/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/ashley.akamine/turtlebot4_ws/build/lab1_pkg/build install --record /home/ashley.akamine/turtlebot4_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
+[0.787s] running egg_info
+[0.788s] writing ../../build/lab1_pkg/lab1_pkg.egg-info/PKG-INFO
+[0.788s] writing dependency_links to ../../build/lab1_pkg/lab1_pkg.egg-info/dependency_links.txt
+[0.788s] writing entry points to ../../build/lab1_pkg/lab1_pkg.egg-info/entry_points.txt
+[0.788s] writing requirements to ../../build/lab1_pkg/lab1_pkg.egg-info/requires.txt
+[0.788s] writing top-level names to ../../build/lab1_pkg/lab1_pkg.egg-info/top_level.txt
+[0.790s] reading manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[0.790s] writing manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[0.790s] running build
+[0.790s] running build_py
+[0.791s] running install
+[0.791s] running install_lib
+[0.792s] running install_data
+[0.792s] running install_egg_info
+[0.794s] removing '/home/ashley.akamine/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.794s] Copying ../../build/lab1_pkg/lab1_pkg.egg-info to /home/ashley.akamine/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info
+[0.795s] running install_scripts
+[0.810s] Installing speed_behavior_node script to /home/ashley.akamine/turtlebot4_ws/install/lab1_pkg/lib/lab1_pkg
+[0.811s] writing list of installed files to '/home/ashley.akamine/turtlebot4_ws/build/lab1_pkg/install.log'
+[0.826s] Invoked command in '/home/ashley.akamine/turtlebot4_ws/src/lab1_pkg' returned '0': PYTHONPATH=/home/ashley.akamine/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/ashley.akamine/turtlebot4_ws/build/lab1_pkg/build install --record /home/ashley.akamine/turtlebot4_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
