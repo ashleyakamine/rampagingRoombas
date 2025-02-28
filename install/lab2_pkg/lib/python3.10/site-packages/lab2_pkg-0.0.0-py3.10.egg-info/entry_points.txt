@@ -1,0 +1,3 @@
+[console_scripts]
+SpeedCapObstacleDetect = lab2_pkg.speed_cap_obstacle_detect:main
+

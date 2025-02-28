@@ -1,0 +1,37 @@
+[0.782s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/install.log --single-version-externally-managed install_data
+[0.992s] running egg_info
+[0.993s] creating ../../build/lab2_pkg/lab2_pkg.egg-info
+[0.993s] writing ../../build/lab2_pkg/lab2_pkg.egg-info/PKG-INFO
+[0.993s] writing dependency_links to ../../build/lab2_pkg/lab2_pkg.egg-info/dependency_links.txt
+[0.994s] writing entry points to ../../build/lab2_pkg/lab2_pkg.egg-info/entry_points.txt
+[0.994s] writing requirements to ../../build/lab2_pkg/lab2_pkg.egg-info/requires.txt
+[0.994s] writing top-level names to ../../build/lab2_pkg/lab2_pkg.egg-info/top_level.txt
+[0.994s] writing manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[0.996s] reading manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[0.996s] writing manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[0.996s] running build
+[0.997s] running build_py
+[0.997s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build
+[0.997s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build/lib
+[0.997s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg
+[0.997s] copying lab2_pkg/__init__.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg
+[0.997s] copying lab2_pkg/speed_cap_obstacle_detect.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg
+[0.997s] running install
+[0.998s] running install_lib
+[0.998s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg
+[0.998s] copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg/__init__.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg
+[0.999s] copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg/speed_cap_obstacle_detect.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg
+[1.000s] byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg/__init__.py to __init__.cpython-310.pyc
+[1.000s] byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg/speed_cap_obstacle_detect.py to speed_cap_obstacle_detect.cpython-310.pyc
+[1.001s] Sorry: IndentationError: expected an indented block after function definition on line 13 (speed_cap_obstacle_detect.py, line 14)
+[1.001s] running install_data
+[1.001s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/ament_index
+[1.001s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/ament_index/resource_index
+[1.001s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/ament_index/resource_index/packages
+[1.001s] copying resource/lab2_pkg -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/ament_index/resource_index/packages
+[1.001s] copying package.xml -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg
+[1.001s] running install_egg_info
+[1.004s] Copying ../../build/lab2_pkg/lab2_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info
+[1.006s] running install_scripts
+[1.022s] writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/install.log'
+[1.042s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg' returned '0': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/install.log --single-version-externally-managed install_data

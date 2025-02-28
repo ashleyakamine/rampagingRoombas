@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000632] (lab1_pkg) JobQueued: {'identifier': 'lab1_pkg', 'dependencies': OrderedDict()}
+[0.000733] (lab2_pkg) JobQueued: {'identifier': 'lab2_pkg', 'dependencies': OrderedDict()}
+[0.000754] (lab1_pkg) JobStarted: {'identifier': 'lab1_pkg'}
+[0.006921] (lab2_pkg) JobStarted: {'identifier': 'lab2_pkg'}
+[0.099875] (-) TimerEvent: {}
+[0.200089] (-) TimerEvent: {}
+[0.300303] (-) TimerEvent: {}
+[0.400507] (-) TimerEvent: {}
+[0.500727] (-) TimerEvent: {}
+[0.569854] (lab1_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lab1_pkg', 'build', '--build-base', '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/build', 'install', '--record', '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab1_pkg', 'env': {'USER': 'ashley.akamine@plu.edu', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'OLDPWD': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws', 'HOME': '/home/ashley.akamine', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'SYSTEMD_EXEC_PID': '2438', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/481844462/bus,guid=2106860322d94746ec64e6b567c22113', 'DBUS_STARTER_BUS_TYPE': 'session', 'COLORTERM': 'truecolor', 'CONDA_CHANGEPS1': 'no', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'ashley.akamine@plu.edu', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ashley.akamine@plu.edu', 'TERM': 'xterm-256color', 'PROMPT_EOL_MARK': '', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/csci20145:@/tmp/.ICE-unix/2438,unix/csci20145:/tmp/.ICE-unix/2438', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a61e389b_52aa_4500_aa82_41ebda4867a2', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/481844462', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.104', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/481844462/.mutter-Xwaylandauth.655222', 'SSH_AUTH_SOCK': '/run/user/481844462/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_481844462_zCGp4b', 'SHELL': '/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/481844462/bus,guid=2106860322d94746ec64e6b567c22113', 'VIRTUAL_ENV_DISABLE_PROMPT': '12', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:'}, 'shell': False}
+[0.573030] (lab2_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lab2_pkg', 'build', '--build-base', '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build', 'install', '--record', '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg', 'env': {'USER': 'ashley.akamine@plu.edu', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'OLDPWD': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws', 'HOME': '/home/ashley.akamine', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'SYSTEMD_EXEC_PID': '2438', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/481844462/bus,guid=2106860322d94746ec64e6b567c22113', 'DBUS_STARTER_BUS_TYPE': 'session', 'COLORTERM': 'truecolor', 'CONDA_CHANGEPS1': 'no', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'ashley.akamine@plu.edu', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ashley.akamine@plu.edu', 'TERM': 'xterm-256color', 'PROMPT_EOL_MARK': '', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/csci20145:@/tmp/.ICE-unix/2438,unix/csci20145:/tmp/.ICE-unix/2438', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a61e389b_52aa_4500_aa82_41ebda4867a2', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/481844462', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.104', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/481844462/.mutter-Xwaylandauth.655222', 'SSH_AUTH_SOCK': '/run/user/481844462/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_481844462_zCGp4b', 'SHELL': '/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/481844462/bus,guid=2106860322d94746ec64e6b567c22113', 'VIRTUAL_ENV_DISABLE_PROMPT': '12', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:'}, 'shell': False}
+[0.600832] (-) TimerEvent: {}
+[0.701041] (-) TimerEvent: {}
+[0.702943] (lab1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.703442] (lab1_pkg) StdoutLine: {'line': b'writing ../../build/lab1_pkg/lab1_pkg.egg-info/PKG-INFO\n'}
+[0.703640] (lab1_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/lab1_pkg/lab1_pkg.egg-info/dependency_links.txt\n'}
+[0.703740] (lab1_pkg) StdoutLine: {'line': b'writing entry points to ../../build/lab1_pkg/lab1_pkg.egg-info/entry_points.txt\n'}
+[0.703980] (lab1_pkg) StdoutLine: {'line': b'writing requirements to ../../build/lab1_pkg/lab1_pkg.egg-info/requires.txt\n'}
+[0.704047] (lab1_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/lab1_pkg/lab1_pkg.egg-info/top_level.txt\n'}
+[0.704931] (lab1_pkg) StdoutLine: {'line': b"reading manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.705780] (lab1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.705880] (lab1_pkg) StdoutLine: {'line': b'running build\n'}
+[0.705925] (lab1_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.706076] (lab1_pkg) StdoutLine: {'line': b'running install\n'}
+[0.706360] (lab1_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.706914] (lab2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.707182] (lab1_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.707253] (lab1_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.707500] (lab2_pkg) StdoutLine: {'line': b'writing ../../build/lab2_pkg/lab2_pkg.egg-info/PKG-INFO\n'}
+[0.707752] (lab2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/lab2_pkg/lab2_pkg.egg-info/dependency_links.txt\n'}
+[0.707910] (lab2_pkg) StdoutLine: {'line': b'writing entry points to ../../build/lab2_pkg/lab2_pkg.egg-info/entry_points.txt\n'}
+[0.708039] (lab2_pkg) StdoutLine: {'line': b'writing requirements to ../../build/lab2_pkg/lab2_pkg.egg-info/requires.txt\n'}
+[0.708104] (lab2_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/lab2_pkg/lab2_pkg.egg-info/top_level.txt\n'}
+[0.708290] (lab1_pkg) StdoutLine: {'line': b"removing '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.708451] (lab1_pkg) StdoutLine: {'line': b'Copying ../../build/lab1_pkg/lab1_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info\n'}
+[0.709070] (lab1_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.709152] (lab2_pkg) StdoutLine: {'line': b"reading manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'\n"}
+[0.709842] (lab2_pkg) StdoutLine: {'line': b"writing manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'\n"}
+[0.709899] (lab2_pkg) StdoutLine: {'line': b'running build\n'}
+[0.709960] (lab2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.710073] (lab2_pkg) StdoutLine: {'line': b'copying lab2_pkg/speed_cap_obstacle_detect.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg\n'}
+[0.710220] (lab2_pkg) StdoutLine: {'line': b'running install\n'}
+[0.710474] (lab2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.711007] (lab2_pkg) StdoutLine: {'line': b'copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg/speed_cap_obstacle_detect.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg\n'}
+[0.711403] (lab2_pkg) StdoutLine: {'line': b'byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg/speed_cap_obstacle_detect.py to speed_cap_obstacle_detect.cpython-310.pyc\n'}
+[0.711792] (lab2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.712157] (lab2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.713246] (lab2_pkg) StdoutLine: {'line': b"removing '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.713428] (lab2_pkg) StdoutLine: {'line': b'Copying ../../build/lab2_pkg/lab2_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info\n'}
+[0.714123] (lab2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.722921] (lab1_pkg) StdoutLine: {'line': b'Installing speed_behavior_node script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/lab1_pkg\n'}
+[0.723157] (lab1_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/install.log'\n"}
+[0.728375] (lab2_pkg) StdoutLine: {'line': b'Installing SpeedCapObstacleDetect script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/lab2_pkg\n'}
+[0.728662] (lab2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/install.log'\n"}
+[0.738753] (lab1_pkg) CommandEnded: {'returncode': 0}
+[0.749953] (lab1_pkg) JobEnded: {'identifier': 'lab1_pkg', 'rc': 0}
+[0.750832] (lab2_pkg) CommandEnded: {'returncode': 0}
+[0.755117] (lab2_pkg) JobEnded: {'identifier': 'lab2_pkg', 'rc': 0}
+[0.755454] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[0.601s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab1_pkg': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
+[0.751s] running egg_info
+[0.751s] writing ../../build/lab1_pkg/lab1_pkg.egg-info/PKG-INFO
+[0.752s] writing dependency_links to ../../build/lab1_pkg/lab1_pkg.egg-info/dependency_links.txt
+[0.752s] writing entry points to ../../build/lab1_pkg/lab1_pkg.egg-info/entry_points.txt
+[0.752s] writing requirements to ../../build/lab1_pkg/lab1_pkg.egg-info/requires.txt
+[0.752s] writing top-level names to ../../build/lab1_pkg/lab1_pkg.egg-info/top_level.txt
+[0.753s] reading manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[0.754s] writing manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[0.754s] running build
+[0.754s] running build_py
+[0.754s] copying lab1_pkg/speed_behavior.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/build/lib/lab1_pkg
+[0.754s] running install
+[0.755s] running install_lib
+[0.755s] copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/build/lib/lab1_pkg/speed_behavior.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg
+[0.756s] byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg/speed_behavior.py to speed_behavior.cpython-310.pyc
+[0.758s] running install_data
+[0.758s] running install_egg_info
+[0.759s] removing '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.760s] Copying ../../build/lab1_pkg/lab1_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info
+[0.761s] running install_scripts
+[0.776s] Installing speed_behavior_node script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/lab1_pkg
+[0.776s] writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/install.log'
+[0.804s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab1_pkg' returned '0': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data

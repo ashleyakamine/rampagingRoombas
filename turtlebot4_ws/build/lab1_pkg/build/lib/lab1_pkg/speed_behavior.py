@@ -11,14 +11,12 @@ class SpeedBehaviorNode(Node):
         super().__init__('speed_behavior_node')
         # Subscribe to the velocity commands
         self.vel_subscriber = self.create_subscription(Twist, '/robot2/cmd_vel', self.callback_vel, 10)
-        self.vel_subscriber
 
         # Publisher for LEDs
         self.led_publish = self.create_publisher(LightringLeds, '/robot2/cmd_lightring', qos_profile_sensor_data)
 
         # Subscirbe to ip for testing
         self.ip_sub = self.create_subscription(String, '/robot2/ip', self.callback_ip, 10)
-        self.ip_sub
 
         # Test publisher
         self.test_publish = self.create_publisher(String, 'test', 10)

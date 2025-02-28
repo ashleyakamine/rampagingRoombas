@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (lab1_pkg) JobQueued: {'identifier': 'lab1_pkg', 'dependencies': OrderedDict()}
+[0.000216] (lab1_pkg) JobStarted: {'identifier': 'lab1_pkg'}
+[0.099570] (-) TimerEvent: {}
+[0.199751] (-) TimerEvent: {}
+[0.299935] (-) TimerEvent: {}
+[0.400180] (-) TimerEvent: {}
+[0.500414] (-) TimerEvent: {}
+[0.562845] (lab1_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/lab1_pkg', 'build', '--build-base', '/home/ashley.akamine/rampagingRoombas/build/lab1_pkg/build', 'install', '--record', '/home/ashley.akamine/rampagingRoombas/build/lab1_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab1_pkg', 'env': {'USER': 'ashley.akamine', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'OLDPWD': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws', 'HOME': '/home/ashley.akamine', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '504765', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/481844462/bus,guid=a58d7046003313697ecb046267c20015', 'DBUS_STARTER_BUS_TYPE': 'session', 'COLORTERM': 'truecolor', 'CONDA_CHANGEPS1': 'no', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ashley.akamine', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'ashley.akamine', 'TERM': 'xterm-256color', 'PROMPT_EOL_MARK': '', 'ROS_SUPER_CLIENT': 'True', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/csci20145:@/tmp/.ICE-unix/504765,unix/csci20145:/tmp/.ICE-unix/504765', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12cd0cb0_d9c9_4183_ae35_04454e6e2681', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':3', 'XDG_RUNTIME_DIR': '/run/user/481844462', 'DISPLAY': ':2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.119', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/481844462/.mutter-Xwaylandauth.WYMM22', 'SSH_AUTH_SOCK': '/run/user/481844462/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ROS_DOMAIN_ID': '2', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_481844462_Cp75Sk', 'SHELL': '/bin/zsh', 'ROS_DISCOVERY_SERVER': '10.5.112.168:11811', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ashley.akamine/rampagingRoombas/build/lab1_pkg', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/481844462/bus,guid=a58d7046003313697ecb046267c20015', 'VIRTUAL_ENV_DISABLE_PROMPT': '12', 'PYTHONPATH': '/home/ashley.akamine/rampagingRoombas/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/install/lab1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.600519] (-) TimerEvent: {}
+[0.700729] (-) TimerEvent: {}
+[0.785501] (lab1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.785957] (lab1_pkg) StdoutLine: {'line': b'creating ../../../build/lab1_pkg/lab1_pkg.egg-info\n'}
+[0.786138] (lab1_pkg) StdoutLine: {'line': b'writing ../../../build/lab1_pkg/lab1_pkg.egg-info/PKG-INFO\n'}
+[0.786824] (lab1_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/lab1_pkg/lab1_pkg.egg-info/dependency_links.txt\n'}
+[0.787163] (lab1_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/lab1_pkg/lab1_pkg.egg-info/entry_points.txt\n'}
+[0.787539] (lab1_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/lab1_pkg/lab1_pkg.egg-info/requires.txt\n'}
+[0.787816] (lab1_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/lab1_pkg/lab1_pkg.egg-info/top_level.txt\n'}
+[0.788149] (lab1_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.789516] (lab1_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.790062] (lab1_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.790155] (lab1_pkg) StdoutLine: {'line': b'running build\n'}
+[0.790219] (lab1_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.790297] (lab1_pkg) StdoutLine: {'line': b'creating /home/ashley.akamine/rampagingRoombas/build/lab1_pkg/build\n'}
+[0.790407] (lab1_pkg) StdoutLine: {'line': b'creating /home/ashley.akamine/rampagingRoombas/build/lab1_pkg/build/lib\n'}
+[0.790487] (lab1_pkg) StdoutLine: {'line': b'creating /home/ashley.akamine/rampagingRoombas/build/lab1_pkg/build/lib/lab1_pkg\n'}
+[0.790566] (lab1_pkg) StdoutLine: {'line': b'copying lab1_pkg/__init__.py -> /home/ashley.akamine/rampagingRoombas/build/lab1_pkg/build/lib/lab1_pkg\n'}
+[0.790890] (lab1_pkg) StdoutLine: {'line': b'copying lab1_pkg/speed_behavior.py -> /home/ashley.akamine/rampagingRoombas/build/lab1_pkg/build/lib/lab1_pkg\n'}
+[0.792899] (lab1_pkg) StdoutLine: {'line': b'running install\n'}
+[0.793060] (lab1_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.793686] (lab1_pkg) StdoutLine: {'line': b'creating /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg\n'}
+[0.793778] (lab1_pkg) StdoutLine: {'line': b'copying /home/ashley.akamine/rampagingRoombas/build/lab1_pkg/build/lib/lab1_pkg/__init__.py -> /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg\n'}
+[0.794028] (lab1_pkg) StdoutLine: {'line': b'copying /home/ashley.akamine/rampagingRoombas/build/lab1_pkg/build/lib/lab1_pkg/speed_behavior.py -> /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg\n'}
+[0.794670] (lab1_pkg) StdoutLine: {'line': b'byte-compiling /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[0.795045] (lab1_pkg) StdoutLine: {'line': b'byte-compiling /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg/speed_behavior.py to speed_behavior.cpython-310.pyc\n'}
+[0.796705] (lab1_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.796802] (lab1_pkg) StdoutLine: {'line': b'creating /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/share/ament_index\n'}
+[0.796852] (lab1_pkg) StdoutLine: {'line': b'creating /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/share/ament_index/resource_index\n'}
+[0.796925] (lab1_pkg) StdoutLine: {'line': b'creating /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/share/ament_index/resource_index/packages\n'}
+[0.796989] (lab1_pkg) StdoutLine: {'line': b'copying resource/lab1_pkg -> /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/share/ament_index/resource_index/packages\n'}
+[0.797340] (lab1_pkg) StdoutLine: {'line': b'copying package.xml -> /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/share/lab1_pkg\n'}
+[0.797682] (lab1_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.798987] (lab1_pkg) StdoutLine: {'line': b'Copying ../../../build/lab1_pkg/lab1_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info\n'}
+[0.800791] (-) TimerEvent: {}
+[0.801207] (lab1_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.816499] (lab1_pkg) StdoutLine: {'line': b'Installing speed_behavior_node script to /home/ashley.akamine/rampagingRoombas/install/lab1_pkg/lib/lab1_pkg\n'}
+[0.816979] (lab1_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ashley.akamine/rampagingRoombas/build/lab1_pkg/install.log'\n"}
+[0.830863] (lab1_pkg) CommandEnded: {'returncode': 0}
+[0.842723] (lab1_pkg) JobEnded: {'identifier': 'lab1_pkg', 'rc': 0}
+[0.843639] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[0.803s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/install/lab2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lab2_pkg build --build-base /home/ashley.akamine/rampagingRoombas/build/lab2_pkg/build install --record /home/ashley.akamine/rampagingRoombas/build/lab2_pkg/install.log --single-version-externally-managed install_data
+[1.014s] running egg_info
+[1.014s] writing ../../../build/lab2_pkg/lab2_pkg.egg-info/PKG-INFO
+[1.014s] writing dependency_links to ../../../build/lab2_pkg/lab2_pkg.egg-info/dependency_links.txt
+[1.015s] writing entry points to ../../../build/lab2_pkg/lab2_pkg.egg-info/entry_points.txt
+[1.015s] writing requirements to ../../../build/lab2_pkg/lab2_pkg.egg-info/requires.txt
+[1.015s] writing top-level names to ../../../build/lab2_pkg/lab2_pkg.egg-info/top_level.txt
+[1.016s] reading manifest file '../../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[1.017s] writing manifest file '../../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[1.017s] running build
+[1.017s] running build_py
+[1.017s] copying lab2_pkg/speed_cap_obstacle_detect.py -> /home/ashley.akamine/rampagingRoombas/build/lab2_pkg/build/lib/lab2_pkg
+[1.017s] running install
+[1.017s] running install_lib
+[1.018s] copying /home/ashley.akamine/rampagingRoombas/build/lab2_pkg/build/lib/lab2_pkg/speed_cap_obstacle_detect.py -> /home/ashley.akamine/rampagingRoombas/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg
+[1.019s] byte-compiling /home/ashley.akamine/rampagingRoombas/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg/speed_cap_obstacle_detect.py to speed_cap_obstacle_detect.cpython-310.pyc
+[1.020s] running install_data
+[1.020s] running install_egg_info
+[1.023s] removing '/home/ashley.akamine/rampagingRoombas/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.023s] Copying ../../../build/lab2_pkg/lab2_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info
+[1.024s] running install_scripts
+[1.040s] Installing SpeedCapObstacleDetect script to /home/ashley.akamine/rampagingRoombas/install/lab2_pkg/lib/lab2_pkg
+[1.040s] writing list of installed files to '/home/ashley.akamine/rampagingRoombas/build/lab2_pkg/install.log'
+[1.065s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg' returned '0': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/install/lab2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lab2_pkg build --build-base /home/ashley.akamine/rampagingRoombas/build/lab2_pkg/build install --record /home/ashley.akamine/rampagingRoombas/build/lab2_pkg/install.log --single-version-externally-managed install_data
