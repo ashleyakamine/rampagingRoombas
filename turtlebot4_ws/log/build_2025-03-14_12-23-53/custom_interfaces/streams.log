@@ -1,0 +1,33 @@
+[0.039s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces': /usr/bin/cmake /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces
+[0.481s] -- The C compiler identification is GNU 11.4.0
+[0.700s] -- The CXX compiler identification is GNU 11.4.0
+[0.848s] -- Detecting C compiler ABI info
+[0.942s] -- Detecting C compiler ABI info - done
+[0.949s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.954s] -- Detecting C compile features
+[0.956s] -- Detecting C compile features - done
+[1.000s] -- Detecting CXX compiler ABI info
+[1.085s] -- Detecting CXX compiler ABI info - done
+[1.092s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.092s] -- Detecting CXX compile features
+[1.093s] -- Detecting CXX compile features - done
+[1.135s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.135s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.135s]   has asked CMake to find a package configuration file provided by
+[1.135s]   "ament_cmake", but CMake did not find one.
+[1.135s] 
+[1.135s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.135s]   any of the following names:
+[1.135s] 
+[1.135s]     ament_cmakeConfig.cmake
+[1.135s]     ament_cmake-config.cmake
+[1.135s] 
+[1.135s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.135s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.135s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.136s]   has been installed.
+[1.136s] 
+[1.136s] [0m
+[1.136s] -- Configuring incomplete, errors occurred!
+[1.136s] See also "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[1.138s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces' returned '1': /usr/bin/cmake /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces

@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000099] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000123] (lab1_pkg) JobQueued: {'identifier': 'lab1_pkg', 'dependencies': OrderedDict()}
+[0.000140] (lab2_pkg) JobQueued: {'identifier': 'lab2_pkg', 'dependencies': OrderedDict()}
+[0.000154] (lab3_pkg) JobQueued: {'identifier': 'lab3_pkg', 'dependencies': OrderedDict([('custom_interfaces', '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces')])}
+[0.000169] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.013721] (lab1_pkg) JobStarted: {'identifier': 'lab1_pkg'}
+[0.028247] (lab2_pkg) JobStarted: {'identifier': 'lab2_pkg'}
+[0.036863] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.037540] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces'], 'cwd': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces', 'env': OrderedDict([('USER', 'ashley.akamine@plu.edu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('OLDPWD', '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src'), ('HOME', '/home/ashley.akamine'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('SYSTEMD_EXEC_PID', '2393'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/481844462/bus,guid=c9d0135570e78381a335c06f67d481e6'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('CONDA_CHANGEPS1', 'no'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'ashley.akamine@plu.edu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ashley.akamine@plu.edu'), ('TERM', 'xterm-256color'), ('PROMPT_EOL_MARK', ''), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/csci20145:@/tmp/.ICE-unix/2393,unix/csci20145:/tmp/.ICE-unix/2393'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2a822dac_86d5_4371_baa3_121b57a23478'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/481844462'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/481844462/.mutter-Xwaylandauth.8OCC32'), ('SSH_AUTH_SOCK', '/run/user/481844462/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_481844462_lLDPYm'), ('SHELL', '/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/481844462/bus,guid=c9d0135570e78381a335c06f67d481e6'), ('VIRTUAL_ENV_DISABLE_PROMPT', '12'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099577] (-) TimerEvent: {}
+[0.200098] (-) TimerEvent: {}
+[0.300369] (-) TimerEvent: {}
+[0.400565] (-) TimerEvent: {}
+[0.480642] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500756] (-) TimerEvent: {}
+[0.600958] (-) TimerEvent: {}
+[0.700333] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.701018] (-) TimerEvent: {}
+[0.801206] (-) TimerEvent: {}
+[0.848151] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.901292] (-) TimerEvent: {}
+[0.942409] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.949549] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.953840] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.955731] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.999664] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.001349] (-) TimerEvent: {}
+[1.084717] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.092123] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.092427] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.092953] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.101424] (-) TimerEvent: {}
+[1.134847] (custom_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.134979] (custom_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.135037] (custom_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.135124] (custom_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.135212] (custom_interfaces) StderrLine: {'line': b'\n'}
+[1.135287] (custom_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.135334] (custom_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[1.135376] (custom_interfaces) StderrLine: {'line': b'\n'}
+[1.135416] (custom_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.135458] (custom_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.135500] (custom_interfaces) StderrLine: {'line': b'\n'}
+[1.135541] (custom_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.135582] (custom_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.135624] (custom_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.135664] (custom_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[1.135705] (custom_interfaces) StderrLine: {'line': b'\n'}
+[1.135745] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.135785] (custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.135834] (custom_interfaces) StdoutLine: {'line': b'See also "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.138424] (custom_interfaces) CommandEnded: {'returncode': 1}
+[1.184876] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 1}
+[1.201500] (-) TimerEvent: {}
+[1.301677] (-) TimerEvent: {}
+[1.401874] (-) TimerEvent: {}
+[1.502089] (-) TimerEvent: {}
+[1.602333] (-) TimerEvent: {}
+[1.702529] (-) TimerEvent: {}
+[1.802756] (-) TimerEvent: {}
+[1.903003] (-) TimerEvent: {}
+[1.909026] (lab2_pkg) JobEnded: {'identifier': 'lab2_pkg', 'rc': 'SIGINT'}
+[1.910501] (lab1_pkg) JobEnded: {'identifier': 'lab1_pkg', 'rc': 'SIGINT'}
+[1.920856] (lab3_pkg) JobSkipped: {'identifier': 'lab3_pkg'}
+[1.920993] (-) EventReactorShutdown: {}

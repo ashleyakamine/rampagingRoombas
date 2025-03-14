@@ -1,0 +1,4 @@
+string get_summary
+---
+bool success
+string summary

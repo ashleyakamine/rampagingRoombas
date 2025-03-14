@@ -1,0 +1,4 @@
+[console_scripts]
+battery_server_node = lab3_pkg.lab3_server:main
+state_summary_client_node = lab3_pkg.state_summary_client:main
+

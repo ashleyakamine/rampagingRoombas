@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces:srv/GetSummary.srv"
+  ]
+}

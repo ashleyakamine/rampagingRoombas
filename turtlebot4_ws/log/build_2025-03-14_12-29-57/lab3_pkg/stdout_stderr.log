@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/lab3_pkg/lab3_pkg.egg-info
+writing ../../build/lab3_pkg/lab3_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/lab3_pkg/lab3_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/lab3_pkg/lab3_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/lab3_pkg/lab3_pkg.egg-info/requires.txt
+writing top-level names to ../../build/lab3_pkg/lab3_pkg.egg-info/top_level.txt
+writing manifest file '../../build/lab3_pkg/lab3_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/lab3_pkg/lab3_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/lab3_pkg/lab3_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build/lib
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build/lib/lab3_pkg
+copying lab3_pkg/__init__.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build/lib/lab3_pkg
+copying lab3_pkg/state_summary_client.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build/lib/lab3_pkg
+copying lab3_pkg/lab3_server.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build/lib/lab3_pkg
+running install
+running install_lib
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages/lab3_pkg
+copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build/lib/lab3_pkg/__init__.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages/lab3_pkg
+copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build/lib/lab3_pkg/state_summary_client.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages/lab3_pkg
+copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build/lib/lab3_pkg/lab3_server.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages/lab3_pkg
+byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages/lab3_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages/lab3_pkg/state_summary_client.py to state_summary_client.cpython-310.pyc
+byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages/lab3_pkg/lab3_server.py to lab3_server.cpython-310.pyc
+running install_data
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/ament_index
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/ament_index/resource_index
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/ament_index/resource_index/packages
+copying resource/lab3_pkg -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg
+running install_egg_info
+Copying ../../build/lab3_pkg/lab3_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages/lab3_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing battery_server_node script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/lab3_pkg
+Installing state_summary_client_node script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/lab3_pkg
+writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/install.log'

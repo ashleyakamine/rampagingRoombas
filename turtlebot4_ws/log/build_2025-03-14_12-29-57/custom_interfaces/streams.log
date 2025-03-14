@@ -1,0 +1,219 @@
+[0.017s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/opt/ros/humble /usr/bin/cmake /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces
+[0.248s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.248s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.595s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.666s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.897s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.585s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.598s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.635s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.635s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.635s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.636s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.652s] -- Found PythonExtra: .so  
+[2.907s] -- Configuring done
+[2.998s] -- Generating done
+[3.055s] -- Build files have been written to: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces
+[3.059s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/opt/ros/humble /usr/bin/cmake /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces
+[3.061s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces -- -j16 -l16
+[3.092s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.099s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.114s] [  6%] Built target ament_cmake_python_copy_custom_interfaces
+[3.343s] running egg_info
+[3.343s] creating custom_interfaces.egg-info
+[3.343s] writing custom_interfaces.egg-info/PKG-INFO
+[3.343s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[3.344s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[3.344s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[3.347s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[3.347s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[3.373s] [  6%] Built target ament_cmake_python_build_custom_interfaces_egg
+[3.376s] [  6%] Built target custom_interfaces__cpp
+[3.379s] [  9%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/get_summary__functions.c.o[0m
+[3.383s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.384s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.384s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.545s] [ 22%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[3.576s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/get_summary__type_support.cpp.o[0m
+[3.578s] [ 25%] Built target custom_interfaces__rosidl_generator_c
+[3.586s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.586s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.587s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.604s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/get_summary__type_support.cpp.o[0m
+[3.623s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/get_summary__type_support.cpp.o[0m
+[3.794s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/get_summary__type_support.cpp.o[0m
+[3.822s] [ 48%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/get_summary__type_support.c.o[0m
+[3.826s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/get_summary__type_support_c.cpp.o[0m
+[3.843s] [ 54%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[3.865s] [ 58%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.879s] [ 58%] Built target custom_interfaces__rosidl_typesupport_c
+[3.893s] [ 58%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[4.041s] [ 61%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[4.077s] [ 61%] Built target custom_interfaces__rosidl_typesupport_cpp
+[4.099s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.146s] [ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[4.190s] [ 67%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.197s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.249s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[4.250s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.263s] [ 70%] Built target custom_interfaces
+[4.276s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.586s] [ 74%] Built target custom_interfaces__py
+[4.610s] [ 77%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_get_summary_s.c.o[0m
+[4.915s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[4.945s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[4.960s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.960s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.964s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.037s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.040s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.040s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.063s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[5.066s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.066s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.074s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces -- -j16 -l16
+[5.084s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces
+[5.089s] -- Install configuration: ""
+[5.089s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[5.090s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.090s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.090s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.091s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.091s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/get_summary.h
+[5.091s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.091s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__type_support.h
+[5.092s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__struct.h
+[5.092s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__functions.c
+[5.093s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__functions.h
+[5.093s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[5.094s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[5.095s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[5.097s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[5.097s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.097s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.097s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.098s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.098s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.098s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__rosidl_typesupport_fastrtps_c.h
+[5.098s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.100s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.100s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.101s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.101s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.101s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.101s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.101s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__rosidl_typesupport_introspection_c.h
+[5.102s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__type_support.c
+[5.102s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[5.105s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.105s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[5.106s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[5.107s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.107s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.107s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.107s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.107s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/get_summary.hpp
+[5.108s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.108s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__traits.hpp
+[5.108s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__type_support.hpp
+[5.109s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__builder.hpp
+[5.109s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__struct.hpp
+[5.110s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.110s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.110s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.110s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.111s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.111s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__rosidl_typesupport_fastrtps_cpp.hpp
+[5.111s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[5.111s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.113s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.113s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.113s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[5.113s] -- Up-to-date: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[5.113s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__type_support.cpp
+[5.114s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/get_summary__rosidl_typesupport_introspection_cpp.hpp
+[5.114s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.116s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.116s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[5.118s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.118s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[5.118s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[5.119s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[5.119s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.119s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.120s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.120s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.121s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[5.121s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.121s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.122s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[5.122s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.123s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.123s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[5.124s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[5.124s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.125s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[5.125s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_get_summary.py
+[5.125s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_get_summary_s.c
+[5.126s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[5.156s] Listing '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[5.157s] Compiling '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[5.157s] Listing '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[5.157s] Compiling '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[5.157s] Compiling '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_get_summary.py'...
+[5.160s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.162s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.162s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.164s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.165s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.167s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.167s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[5.169s] -- Set runtime path of "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[5.169s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/srv/GetSummary.idl
+[5.170s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/srv/GetSummary.srv
+[5.171s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/srv/GetSummary_Request.msg
+[5.172s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/srv/GetSummary_Response.msg
+[5.173s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[5.173s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[5.174s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[5.175s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[5.175s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[5.176s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[5.177s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[5.177s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[5.178s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[5.178s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[5.179s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[5.180s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[5.180s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[5.181s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.181s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.195s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.199s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.200s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.201s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[5.201s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.202s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[5.203s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.203s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.204s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.204s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.205s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[5.206s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.207s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[5.208s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.208s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.209s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.210s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.211s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.212s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.213s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.214s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.215s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[5.216s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[5.216s] -- Installing: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[5.221s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces
