@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find-pkg-share turtlebot4_navigation)/launch/slam.launch.py" >
+        <arg name="namespace" value="/robot2" />
+    </include>
+    <include file="$(find-pkg-share turtlebot4_viz)/launch/view_robot.launch.py" >
+        <arg name="namespace" value="/robot2" />
+    </include>
+</launch>

@@ -1,0 +1,3 @@
+<launch>
+<node pkg="lab2_pkg" exec="speed_cap_obstacle_detect_node" />
+</launch>
