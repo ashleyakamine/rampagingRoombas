@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/robot_goal__type_support.cpp.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/robot_goal__type_support.cpp.o.d"
   "CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/get_summary__type_support.cpp.o"
   "CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/get_summary__type_support.cpp.o.d"
   "libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/robot_goal__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/robot_goal__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/get_summary__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/get_summary__rosidl_typesupport_fastrtps_cpp.hpp"
 )

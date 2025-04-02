@@ -247,8 +247,17 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_ge
   rosidl_generator_c/custom_interfaces/srv/detail/get_summary__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/custom_interfaces/srv/detail/get_summary__functions.h
+  rosidl_generator_c/custom_interfaces/srv/detail/get_summary__functions.h \
+  rosidl_generator_c/custom_interfaces/action/detail/robot_goal__type_support.h \
+  rosidl_generator_c/custom_interfaces/action/detail/robot_goal__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  rosidl_generator_c/custom_interfaces/action/detail/robot_goal__functions.h
 
+
+/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
+
+rosidl_generator_c/custom_interfaces/action/detail/robot_goal__type_support.h:
 
 rosidl_generator_c/custom_interfaces/srv/detail/get_summary__functions.h:
 
@@ -299,6 +308,8 @@ rosidl_generator_c/custom_interfaces/srv/detail/get_summary__type_support.h:
 /usr/include/python3.10/cpython/ceval.h:
 
 /usr/include/python3.10/genericaliasobject.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 /usr/include/python3.10/descrobject.h:
 
@@ -470,6 +481,8 @@ rosidl_generator_c/custom_interfaces/srv/detail/get_summary__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
+rosidl_generator_c/custom_interfaces/action/detail/robot_goal__functions.h:
+
 /usr/include/python3.10/object.h:
 
 /usr/include/linux/types.h:
@@ -577,6 +590,8 @@ rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+rosidl_generator_c/custom_interfaces/action/detail/robot_goal__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 

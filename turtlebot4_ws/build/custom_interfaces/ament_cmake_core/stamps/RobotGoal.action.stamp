@@ -1,0 +1,10 @@
+float64 goal_x
+float64 goal_y
+float64 goal_theta
+---
+bool success
+---
+float64 current_x
+float64 current_y
+float64 current_theta
+float64 distance_from_goal

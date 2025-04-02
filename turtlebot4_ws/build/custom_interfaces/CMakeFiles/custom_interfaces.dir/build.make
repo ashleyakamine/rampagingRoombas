@@ -69,6 +69,11 @@ include CMakeFiles/custom_interfaces.dir/progress.make
 CMakeFiles/custom_interfaces: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces/srv/GetSummary.srv
 CMakeFiles/custom_interfaces: rosidl_cmake/srv/GetSummary_Request.msg
 CMakeFiles/custom_interfaces: rosidl_cmake/srv/GetSummary_Response.msg
+CMakeFiles/custom_interfaces: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces/action/RobotGoal.action
+CMakeFiles/custom_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/custom_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/custom_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/custom_interfaces: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 
 custom_interfaces: CMakeFiles/custom_interfaces
 custom_interfaces: CMakeFiles/custom_interfaces.dir/build.make

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/RobotGoal.action
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module action {
+    struct RobotGoal_Goal {
+      double goal_x;
+
+      double goal_y;
+
+      double goal_theta;
+    };
+    struct RobotGoal_Result {
+      boolean success;
+    };
+    struct RobotGoal_Feedback {
+      double current_x;
+
+      double current_y;
+
+      double current_theta;
+
+      double distance_from_goal;
+    };
+  };
+};

@@ -1,3 +1,5 @@
+action/RobotGoal.action
+action/RobotGoal.idl
 srv/GetSummary.idl
 srv/GetSummary.srv
 srv/GetSummary_Request.msg
