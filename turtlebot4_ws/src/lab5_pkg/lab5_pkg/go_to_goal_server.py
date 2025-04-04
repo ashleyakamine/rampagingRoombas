@@ -41,19 +41,19 @@ class GoToGoalNode(Node):
         self.origin_ang = 0.0
 
         # Subscribe to the robot position
-        self.pos_subscriber = self.create_subscription(PoseWithCovarianceStamped, '/robotN/pose', self.callback_pos, 10)
+        self.pos_subscriber = self.create_subscription(PoseWithCovarianceStamped, '/robot2/pose', self.callback_pos, 10)
         self.pos_subscriber
 
         # Subscribe to the occupancy grid
-        self.map_subscriber = self.create_subscription(OccupancyGrid, '/robotN/map', self.callback_map, 10)
+        self.map_subscriber = self.create_subscription(OccupancyGrid, '/robot2/map', self.callback_map, 10)
         self.map_subscriber
 
         # Subscirbe to LiDAR raw data
-        self.scan_sub = self.create_subscription(LaserScan, '/robotN/scan', self.callback_scan, 10)
+        self.scan_sub = self.create_subscription(LaserScan, '/robot2/scan', self.callback_scan, 10)
         self.scan_sub
 
         # Publisher for velocity
-        self.velocity_pub = self.create_publisher(Twist, '/robotN/cmd_vel', 10)
+        self.velocity_pub = self.create_publisher(Twist, '/robot2/cmd_vel', 10)
 
         # Action server
         self.goal_action_server = ActionServer(self, RobotGoal, "robot_goal", goal_callback=self.goal_callback, execute_callback=self.execute_callback)
@@ -85,7 +85,7 @@ class GoToGoalNode(Node):
             
             if self.obstacle:
                 self.get_logger().warn("Obstacle Detected. Aborting")
-                goal_handle.abort()
+                goal_handle.canceled()
             
             new_vel.linear.x = 0.5 if curr_dist > 1.5 else 0.5 * (curr_dist / 1.5)
             self.velocity_pub.publish(new_vel)
