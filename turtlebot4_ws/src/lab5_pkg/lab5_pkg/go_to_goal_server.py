@@ -7,10 +7,11 @@ from custom_interfaces.action import RobotGoal
 
 from rclpy.action import ActionServer, GoalResponse
 from rclpy.action.server import ServerGoalHandle
-
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
+from rclpy.executors import MultiThreadedExecutor, ExternalShutdownException
+from rclpy.callback_groups import ReentrantCallbackGroup
 
 import math
 
@@ -40,6 +41,9 @@ class GoToGoalNode(Node):
         self.origin_y = 0.0
         self.origin_ang = 0.0
 
+        # Empty lists to add obstacles to
+        self.obstacle_space = []
+
         # Subscribe to the robot position
         self.pos_subscriber = self.create_subscription(PoseWithCovarianceStamped, '/robot2/pose', self.callback_pos, 10)
         self.pos_subscriber
@@ -61,7 +65,7 @@ class GoToGoalNode(Node):
     # Callback for action goal
     def goal_callback(self, goal_request):
         self.get_logger().info("Recieved goal request")
-        if (goal_request.goal_x, goal_request.goal_y) in self.obstacle_list:
+        if (goal_request.goal_x, goal_request.goal_y) in self.obstacle_space:
             self.get_logger().warn("Goal is in an obstacle")
             return GoalResponse.REJECT
         else:
@@ -74,37 +78,72 @@ class GoToGoalNode(Node):
         goal_x, goal_y = goal_handle.request.goal_x, goal_handle.request.goal_y
         result = RobotGoal.Result()
 
-        while (abs(goal_x - self.x) > 1.0) or (abs(goal_y - self.y) > 1.0):
-            new_ang = Twist()
+        curr_dist = math.sqrt(((goal_x - self.x) ** 2) + ((goal_y - self.y) ** 2))
+        while curr_dist > 0.5:
             new_vel = Twist()
-            
+
+            ang_diff = abs(self.ang - math.atan2((goal_y - self.y), (goal_x - self.x)))
             curr_dist = math.sqrt(((goal_x - self.x) ** 2) + ((goal_y - self.y) ** 2))
-           
-            new_ang.angular.z = math.atan2((goal_y - self.x) / (goal_x - self.x)) - self.ang
-            self.velocity_pub.publish(new_ang)
             
-            if self.obstacle:
-                self.get_logger().warn("Obstacle Detected. Aborting")
-                goal_handle.canceled()
-            
-            new_vel.linear.x = 0.5 if curr_dist > 1.5 else 0.5 * (curr_dist / 1.5)
+            if abs(ang_diff > 0.5 ):
+                new_vel.linear.x = 0.0
+                new_vel.angular.z = 0.5
+            else:
+                new_vel.angular.z = 0.0
+                if self.obstacle:
+                    self.get_logger().warn("Obstacle Detected. Aborting")
+                    new_vel.linear.x = 0.0
+                    new_vel.angular.x = 0.0
+                else:
+                    new_vel.linear.x = 0.5 if curr_dist > 1.5 else 0.5 * (curr_dist / 1.5)
+        
             self.velocity_pub.publish(new_vel)
             
             feedback = RobotGoal.Feedback()
-            feedback.current_x = self.x
-            feedback.current_y = self.y
-            feedback.current_theta = self.ang
-            feedback.distance_from_goal = curr_dist
+            feedback.current_x = float(self.x)
+            feedback.current_y = float(self.y)
+            feedback.current_theta = float(self.ang)
+            feedback.distance_from_goal = float(curr_dist)
             goal_handle.publish_feedback(feedback)
         
         self.get_logger().info("Suceeded")
-        goal_handle.suceed()
+        goal_handle.succeed()
         result.success = True
-        return result
-
+        return result   
 
         
+    #         curr_dist = math.sqrt(((goal_x - self.x) ** 2) + ((goal_y - self.y) ** 2))
+    #         ang_diff = self.ang - math.atan2((goal_y - self.y), (goal_x - self.x))
+    #         while abs(ang_diff > 0.25 ):
+    #             self.get_logger().info(f"Angle: {self.ang}. Angle Diff: {ang_diff}")
+    #             new_ang.angular.z = 0.5
+    #             new_ang.linear.x = 0.0
+
+    #             self.velocity_pub.publish(new_ang)
+    #             ang_diff = self.ang - math.atan2((goal_y - self.y), (goal_x - self.x))
             
+    #         new_ang.angular.z = 0.0
+    #         self.velocity_pub.publish(new_ang)
+            
+    #         new_vel.linear.x = 0.5 if curr_dist > 1.5 else 0.5 * (curr_dist / 1.5)
+            
+    #         if self.obstacle:
+    #             self.get_logger().warn("Obstacle Detected. Aborting")
+    #             new_vel.linear.x = 0.0
+            
+    #         self.velocity_pub.publish(new_vel)
+            
+    #         feedback = RobotGoal.Feedback()
+    #         feedback.current_x = float(self.x)
+    #         feedback.current_y = float(self.y)
+    #         feedback.current_theta = float(self.ang)
+    #         feedback.distance_from_goal = float(curr_dist)
+    #         goal_handle.publish_feedback(feedback)
+        
+    #     self.get_logger().info("Suceeded")
+    #     goal_handle.succeed()
+    #     result.success = True
+    #     return result
 
 
     # Callback for position
@@ -149,7 +188,7 @@ class GoToGoalNode(Node):
                 point = occupancy_grid[col + (row*self.width)]
 
                 if point > 25:
-                    self.obstacle_space.append(real_x, real_y)
+                    self.obstacle_space.append([real_x, real_y])
 
                 col += 1
             row += 1
@@ -175,17 +214,20 @@ class GoToGoalNode(Node):
                 if scan_point <= 0.7:
                     # detect obstacle
                     self.obstacle = True
-                    
-
-    
 
 
 def main(args=None):
-    rclpy.init(args=args)
-    node = GoToGoalNode()
-    rclpy.spin(node)
+    try:
+        rclpy.init(args=args)
+        node = GoToGoalNode()
+        # Use a MultiThreadedExecutor to enable processing goals concurrently
+        executor = MultiThreadedExecutor()
+        rclpy.spin(node, executor=executor)
+    except (KeyboardInterrupt, ExternalShutdownException):
+        pass
     node.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

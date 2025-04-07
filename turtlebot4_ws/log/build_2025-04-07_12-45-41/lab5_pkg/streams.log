@@ -1,0 +1,23 @@
+[0.873s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab5_pkg': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/inclass_ws/install/custom_interfaces PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab5_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/install.log --single-version-externally-managed install_data
+[1.095s] running egg_info
+[1.096s] writing ../../build/lab5_pkg/lab5_pkg.egg-info/PKG-INFO
+[1.096s] writing dependency_links to ../../build/lab5_pkg/lab5_pkg.egg-info/dependency_links.txt
+[1.097s] writing entry points to ../../build/lab5_pkg/lab5_pkg.egg-info/entry_points.txt
+[1.097s] writing requirements to ../../build/lab5_pkg/lab5_pkg.egg-info/requires.txt
+[1.097s] writing top-level names to ../../build/lab5_pkg/lab5_pkg.egg-info/top_level.txt
+[1.099s] reading manifest file '../../build/lab5_pkg/lab5_pkg.egg-info/SOURCES.txt'
+[1.099s] writing manifest file '../../build/lab5_pkg/lab5_pkg.egg-info/SOURCES.txt'
+[1.099s] running build
+[1.099s] running build_py
+[1.100s] running install
+[1.100s] running install_lib
+[1.101s] byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages/lab5_pkg/go_to_goal_server.py to go_to_goal_server.cpython-310.pyc
+[1.103s] running install_data
+[1.103s] running install_egg_info
+[1.104s] removing '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages/lab5_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.105s] Copying ../../build/lab5_pkg/lab5_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages/lab5_pkg-0.0.0-py3.10.egg-info
+[1.106s] running install_scripts
+[1.123s] Installing go_to_goal script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/lab5_pkg
+[1.124s] Installing go_to_goal_client script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/lab5_pkg
+[1.124s] writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/install.log'
+[1.156s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab5_pkg' returned '0': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/inclass_ws/install/custom_interfaces PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab5_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/install.log --single-version-externally-managed install_data

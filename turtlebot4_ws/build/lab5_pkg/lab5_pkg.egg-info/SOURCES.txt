@@ -9,6 +9,7 @@ setup.py
 ../../build/lab5_pkg/lab5_pkg.egg-info/top_level.txt
 ../../build/lab5_pkg/lab5_pkg.egg-info/zip-safe
 lab5_pkg/__init__.py
+lab5_pkg/go_to_goal_client.py
 lab5_pkg/go_to_goal_server.py
 resource/lab5_pkg
 test/test_copyright.py
