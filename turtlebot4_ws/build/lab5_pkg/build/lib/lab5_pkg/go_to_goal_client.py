@@ -53,9 +53,8 @@ class GoToGoalClient(Node):
         status = future.result().status
 
         if status == GoalStatus.STATUS_SUCCEEDED:
-            self.get_logger().info("Success!")
             success = result.success
-            self.get_logger().info(success)
+            self.get_logger().info("Success!")
         else:
             self.get_logger().info("Failed in goal result callback")
 

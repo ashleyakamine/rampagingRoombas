@@ -109,7 +109,26 @@ class GoToGoalNode(Node):
             feedback.current_theta = float(self.ang)
             feedback.distance_from_goal = float(curr_dist)
             goal_handle.publish_feedback(feedback)
+    
+
+        goal_theta = goal_handle.request.goal_theta
+        self.get_logger().info(f"-- At goal -- \nself.ang: {self.ang} \ngoal_theta:{goal_theta}")
         
+        new_vel = Twist()
+
+        while abs(self.ang - goal_theta) > 0.25:
+            new_vel.linear.x = 0.0
+            new_vel.angular.z = 0.25
+
+            self.velocity_pub.publish(new_vel)
+
+            self.get_logger().info(f"At goal, turning... self.ang: {self.ang}")
+
+        new_vel.linear.x = 0.0
+        new_vel.angular.z = 0.0
+
+        self.velocity_pub.publish(new_vel)
+
         self.get_logger().info("Suceeded")
         goal_handle.succeed()
         result.success = True
