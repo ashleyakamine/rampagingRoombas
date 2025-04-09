@@ -13,6 +13,8 @@ from rclpy.qos import qos_profile_sensor_data
 from rclpy.executors import MultiThreadedExecutor, ExternalShutdownException
 from rclpy.callback_groups import ReentrantCallbackGroup
 
+from tf_transformations import euler_from_quaternion
+
 import math
 
 class GoToGoalNode(Node):
@@ -84,15 +86,18 @@ class GoToGoalNode(Node):
 
             ang_diff = abs(self.ang - math.atan2((goal_y - self.y), (goal_x - self.x)))
             curr_dist = math.sqrt(((goal_x - self.x) ** 2) + ((goal_y - self.y) ** 2))
+
+            self.get_logger().info(f"\nself.ang: {self.ang} \ngoal_ang:{math.atan2((goal_y - self.y), (goal_x - self.x))}")
             
-            if abs(ang_diff > 0.5 ):
+            if abs(ang_diff > 0.25):
                 new_vel.linear.x = 0.0
-                new_vel.angular.z = 0.5
+                new_vel.angular.z = 0.25
             else:
                 new_vel.angular.z = 0.0
                 if self.obstacle:
                     self.get_logger().warn("Obstacle Detected. Aborting")
                     new_vel.linear.x = 0.0
+                    new_vel.angular.x = 0.0
                 else:
                     new_vel.linear.x = 0.5 if curr_dist > 1.5 else 0.5 * (curr_dist / 1.5)
         
@@ -149,7 +154,7 @@ class GoToGoalNode(Node):
     def callback_pos(self, msg):
         self.x = msg.pose.pose.position.x
         self.y = msg.pose.pose.position.y
-        self.ang = msg.pose.pose.orientation.z
+        self.ang = euler_from_quaternion([msg.pose.pose.orientation.x, msg.pose.pose.orientation.y, msg.pose.pose.orientation.z, msg.pose.pose.orientation.w])[2]
 
     # index in map to real x y
     def index_to_real(self,col,row):

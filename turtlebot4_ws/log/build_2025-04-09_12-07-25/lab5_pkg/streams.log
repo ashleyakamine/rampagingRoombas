@@ -1,0 +1,26 @@
+[0.901s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab5_pkg': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/inclass_ws/install/custom_interfaces PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab5_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/install.log --single-version-externally-managed install_data
+[1.118s] running egg_info
+[1.118s] writing ../../build/lab5_pkg/lab5_pkg.egg-info/PKG-INFO
+[1.118s] writing dependency_links to ../../build/lab5_pkg/lab5_pkg.egg-info/dependency_links.txt
+[1.118s] writing entry points to ../../build/lab5_pkg/lab5_pkg.egg-info/entry_points.txt
+[1.118s] writing requirements to ../../build/lab5_pkg/lab5_pkg.egg-info/requires.txt
+[1.118s] writing top-level names to ../../build/lab5_pkg/lab5_pkg.egg-info/top_level.txt
+[1.120s] reading manifest file '../../build/lab5_pkg/lab5_pkg.egg-info/SOURCES.txt'
+[1.121s] writing manifest file '../../build/lab5_pkg/lab5_pkg.egg-info/SOURCES.txt'
+[1.121s] running build
+[1.121s] running build_py
+[1.121s] copying lab5_pkg/go_to_goal_server.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/build/lib/lab5_pkg
+[1.122s] running install
+[1.122s] running install_lib
+[1.123s] copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/build/lib/lab5_pkg/go_to_goal_server.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages/lab5_pkg
+[1.124s] byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages/lab5_pkg/go_to_goal_server.py to go_to_goal_server.cpython-310.pyc
+[1.127s] running install_data
+[1.127s] copying package.xml -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg
+[1.127s] running install_egg_info
+[1.129s] removing '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages/lab5_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.129s] Copying ../../build/lab5_pkg/lab5_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages/lab5_pkg-0.0.0-py3.10.egg-info
+[1.130s] running install_scripts
+[1.146s] Installing go_to_goal script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/lab5_pkg
+[1.146s] Installing go_to_goal_client script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/lab5_pkg
+[1.146s] writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/install.log'
+[1.164s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab5_pkg' returned '0': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/inclass_ws/install/custom_interfaces PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab5_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/install.log --single-version-externally-managed install_data
