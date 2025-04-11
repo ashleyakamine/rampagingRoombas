@@ -130,6 +130,7 @@ class GoToGoalNode(Node):
     def map_callback(self, msg):
         print("Map callback triggered!")
 
+        #### TODO: CHANGE THESE VALUES #####
         self.width = msg.info.width
         self.height = msg.info.height
         self.resolution = self.resolution
