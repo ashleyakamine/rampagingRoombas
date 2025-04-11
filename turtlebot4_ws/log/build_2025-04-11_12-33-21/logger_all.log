@@ -1,0 +1,421 @@
+[0.605s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.605s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78347ef57520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78347f0a03d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78347f0a03d0>>, mixin_verb=('build',))
+[1.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.636s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[1.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_pkg) by extension 'ignore'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_pkg) by extension 'ignore_ament_install'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_pkg) by extensions ['colcon_pkg']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_pkg) by extension 'colcon_pkg'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_pkg) by extensions ['colcon_meta']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_pkg) by extension 'colcon_meta'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_pkg) by extensions ['ros']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_pkg) by extension 'ros'
+[1.673s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab1_pkg' with type 'ros.ament_python' and name 'lab1_pkg'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_pkg) by extension 'ignore'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_pkg) by extension 'ignore_ament_install'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_pkg) by extensions ['colcon_pkg']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_pkg) by extension 'colcon_pkg'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_pkg) by extensions ['colcon_meta']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_pkg) by extension 'colcon_meta'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_pkg) by extensions ['ros']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_pkg) by extension 'ros'
+[1.675s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab2_pkg' with type 'ros.ament_python' and name 'lab2_pkg'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab3_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab3_pkg) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab3_pkg) by extension 'ignore_ament_install'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab3_pkg) by extensions ['colcon_pkg']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab3_pkg) by extension 'colcon_pkg'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab3_pkg) by extensions ['colcon_meta']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab3_pkg) by extension 'colcon_meta'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab3_pkg) by extensions ['ros']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab3_pkg) by extension 'ros'
+[1.677s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab3_pkg' with type 'ros.ament_python' and name 'lab3_pkg'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab5_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab5_pkg) by extension 'ignore'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab5_pkg) by extension 'ignore_ament_install'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab5_pkg) by extensions ['colcon_pkg']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab5_pkg) by extension 'colcon_pkg'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab5_pkg) by extensions ['colcon_meta']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab5_pkg) by extension 'colcon_meta'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab5_pkg) by extensions ['ros']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab5_pkg) by extension 'ros'
+[1.679s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab5_pkg' with type 'ros.ament_python' and name 'lab5_pkg'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_lab_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_lab_bringup) by extension 'ignore'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_lab_bringup) by extension 'ignore_ament_install'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_lab_bringup) by extensions ['colcon_pkg']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_lab_bringup) by extension 'colcon_pkg'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_lab_bringup) by extensions ['colcon_meta']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_lab_bringup) by extension 'colcon_meta'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_lab_bringup) by extensions ['ros']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_lab_bringup) by extension 'ros'
+[1.681s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot_lab_bringup' with type 'ros.ament_cmake' and name 'turtlebot_lab_bringup'
+[1.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.802s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.802s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.813s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install
+[1.814s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ashley.akamine/inclass_ws/install
+[1.815s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/humble
+[1.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.874s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'custom_interfaces' is in: /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces, /home/ashley.akamine/inclass_ws/install/custom_interfaces
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding custom_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.875s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab1_pkg' build argument 'cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab1_pkg' build argument 'cmake_target' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab1_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab1_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab1_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab1_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab1_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab1_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab1_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.876s] DEBUG:colcon.colcon_core.verb:Building package 'lab1_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg', 'merge_install': False, 'path': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab1_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab2_pkg' build argument 'cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab2_pkg' build argument 'cmake_target' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.876s] DEBUG:colcon.colcon_core.verb:Building package 'lab2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg', 'merge_install': False, 'path': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'lab3_pkg' build argument 'cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab3_pkg' build argument 'cmake_target' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab3_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab3_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab3_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab3_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab3_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab3_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab3_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.877s] DEBUG:colcon.colcon_core.verb:Building package 'lab3_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg', 'merge_install': False, 'path': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab3_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab5_pkg' build argument 'cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab5_pkg' build argument 'cmake_target' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab5_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab5_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab5_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab5_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab5_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab5_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'lab5_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.877s] DEBUG:colcon.colcon_core.verb:Building package 'lab5_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg', 'merge_install': False, 'path': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab5_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_lab_bringup' build argument 'cmake_args' from command line to 'None'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_lab_bringup' build argument 'cmake_target' from command line to 'None'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_lab_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_lab_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_lab_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_lab_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_lab_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_lab_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_lab_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.878s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot_lab_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/turtlebot_lab_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup', 'merge_install': False, 'path': '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/turtlebot_lab_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.878s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.879s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.879s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces' with build type 'ament_cmake'
+[1.879s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/custom_interfaces'
+[1.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.898s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg' with build type 'ament_python'
+[1.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2_pkg', 'ament_prefix_path')
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/hook/ament_prefix_path.ps1'
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/hook/ament_prefix_path.dsv'
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/hook/ament_prefix_path.sh'
+[1.915s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.920s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab1_pkg' with build type 'ament_python'
+[1.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_pkg', 'ament_prefix_path')
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/hook/ament_prefix_path.ps1'
+[1.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/hook/ament_prefix_path.dsv'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/hook/ament_prefix_path.sh'
+[1.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/opt/ros/humble /usr/bin/cmake --build /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces -- -j16 -l16
+[2.230s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg'
+[2.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.480s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab1_pkg'
+[2.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/opt/ros/humble /usr/bin/cmake --build /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces -- -j16 -l16
+[2.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/opt/ros/humble /usr/bin/cmake --install /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces
+[2.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[2.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/opt/ros/humble /usr/bin/cmake --install /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces
+[2.938s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces' for CMake module files
+[2.939s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces' for CMake config files
+[2.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[2.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[2.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[2.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[2.946s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib'
+[2.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[2.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[2.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[2.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[2.952s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/bin'
+[2.952s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[2.952s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[2.952s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/bin'
+[2.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[2.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[2.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[2.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[3.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[3.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces' for CMake module files
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces' for CMake config files
+[3.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[3.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[3.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[3.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib'
+[3.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[3.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[3.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[3.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/bin'
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/bin'
+[3.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[3.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[3.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[3.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[3.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[3.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[3.020s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab3_pkg' with build type 'ament_python'
+[3.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab3_pkg', 'ament_prefix_path')
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/hook/ament_prefix_path.ps1'
+[3.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/hook/ament_prefix_path.dsv'
+[3.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/hook/ament_prefix_path.sh'
+[3.028s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.033s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab5_pkg' with build type 'ament_python'
+[3.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab5_pkg', 'ament_prefix_path')
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/hook/ament_prefix_path.ps1'
+[3.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/hook/ament_prefix_path.dsv'
+[3.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/hook/ament_prefix_path.sh'
+[3.040s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.040s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.295s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab3_pkg'
+[3.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.537s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab5_pkg'
+[3.537s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.537s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab1_pkg': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
+[4.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/install.log --single-version-externally-managed install_data
+[4.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab5_pkg': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/inclass_ws/install/custom_interfaces PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab5_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/install.log --single-version-externally-managed install_data
+[4.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab3_pkg': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/inclass_ws/install/custom_interfaces PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab3_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/install.log --single-version-externally-managed install_data
+[4.382s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg' for CMake module files
+[4.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab1_pkg' returned '0': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
+[4.383s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg' for CMake config files
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/bin'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/pkgconfig/lab1_pkg.pc'
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages'
+[4.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_pkg', 'pythonpath')
+[4.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/hook/pythonpath.ps1'
+[4.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/hook/pythonpath.dsv'
+[4.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/hook/pythonpath.sh'
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/bin'
+[4.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1_pkg)
+[4.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/package.ps1'
+[4.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/package.dsv'
+[4.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/package.sh'
+[4.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/package.bash'
+[4.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg/package.zsh'
+[4.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/share/colcon-core/packages/lab1_pkg)
+[4.434s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg' for CMake module files
+[4.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg' returned '0': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/install.log --single-version-externally-managed install_data
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg' for CMake config files
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib'
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/bin'
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/pkgconfig/lab2_pkg.pc'
+[4.436s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages'
+[4.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2_pkg', 'pythonpath')
+[4.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/hook/pythonpath.ps1'
+[4.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/hook/pythonpath.dsv'
+[4.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/hook/pythonpath.sh'
+[4.442s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/bin'
+[4.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2_pkg)
+[4.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/package.ps1'
+[4.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/package.dsv'
+[4.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/package.sh'
+[4.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/package.bash'
+[4.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/lab2_pkg/package.zsh'
+[4.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/share/colcon-core/packages/lab2_pkg)
+[4.480s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg' for CMake module files
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg' for CMake config files
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib'
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/bin'
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/pkgconfig/lab5_pkg.pc'
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages'
+[4.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab5_pkg', 'pythonpath')
+[4.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/hook/pythonpath.ps1'
+[4.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab5_pkg' returned '0': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/inclass_ws/install/custom_interfaces PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab5_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab5_pkg/install.log --single-version-externally-managed install_data
+[4.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/hook/pythonpath.dsv'
+[4.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/hook/pythonpath.sh'
+[4.488s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/bin'
+[4.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab5_pkg)
+[4.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/package.ps1'
+[4.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/package.dsv'
+[4.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/package.sh'
+[4.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/package.bash'
+[4.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/lab5_pkg/package.zsh'
+[4.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/share/colcon-core/packages/lab5_pkg)
+[4.525s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg' for CMake module files
+[4.526s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg' for CMake config files
+[4.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab3_pkg' returned '0': CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/inclass_ws/install/custom_interfaces PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab3_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/install.log --single-version-externally-managed install_data
+[4.528s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib'
+[4.528s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/bin'
+[4.528s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/pkgconfig/lab3_pkg.pc'
+[4.528s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages'
+[4.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab3_pkg', 'pythonpath')
+[4.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/hook/pythonpath.ps1'
+[4.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/hook/pythonpath.dsv'
+[4.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/hook/pythonpath.sh'
+[4.533s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/bin'
+[4.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab3_pkg)
+[4.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/package.ps1'
+[4.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/package.dsv'
+[4.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/package.sh'
+[4.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/package.bash'
+[4.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/lab3_pkg/package.zsh'
+[4.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/share/colcon-core/packages/lab3_pkg)
+[4.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/turtlebot_lab_bringup' with build type 'ament_cmake'
+[4.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/turtlebot_lab_bringup'
+[4.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/turtlebot_lab_bringup': AMENT_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/home/ashley.akamine/inclass_ws/install/custom_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/opt/ros/humble PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/ashley.akamine/inclass_ws/install/chatroom_pkg/lib/python3.10/site-packages:/home/ashley.akamine/inclass_ws/install/cat_nap/lib/python3.10/site-packages:/home/ashley.akamine/inclass_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/turtlebot_lab_bringup -- -j16 -l16
+[4.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/turtlebot_lab_bringup' returned '0': AMENT_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/home/ashley.akamine/inclass_ws/install/custom_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/opt/ros/humble PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/ashley.akamine/inclass_ws/install/chatroom_pkg/lib/python3.10/site-packages:/home/ashley.akamine/inclass_ws/install/cat_nap/lib/python3.10/site-packages:/home/ashley.akamine/inclass_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/turtlebot_lab_bringup -- -j16 -l16
+[4.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/turtlebot_lab_bringup': AMENT_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/home/ashley.akamine/inclass_ws/install/custom_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/opt/ros/humble PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/ashley.akamine/inclass_ws/install/chatroom_pkg/lib/python3.10/site-packages:/home/ashley.akamine/inclass_ws/install/cat_nap/lib/python3.10/site-packages:/home/ashley.akamine/inclass_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/turtlebot_lab_bringup
+[4.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_lab_bringup)
+[4.661s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup' for CMake module files
+[4.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/turtlebot_lab_bringup' returned '0': AMENT_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/home/ashley.akamine/inclass_ws/install/custom_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg:/home/ashley.akamine/inclass_ws/install/chatroom_pkg:/home/ashley.akamine/inclass_ws/install/cat_nap:/opt/ros/humble PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab5_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/ashley.akamine/inclass_ws/install/chatroom_pkg/lib/python3.10/site-packages:/home/ashley.akamine/inclass_ws/install/cat_nap/lib/python3.10/site-packages:/home/ashley.akamine/inclass_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/turtlebot_lab_bringup
+[4.662s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup' for CMake config files
+[4.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_lab_bringup', 'cmake_prefix_path')
+[4.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/hook/cmake_prefix_path.ps1'
+[4.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/hook/cmake_prefix_path.dsv'
+[4.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/hook/cmake_prefix_path.sh'
+[4.667s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/bin'
+[4.667s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/lib/pkgconfig/turtlebot_lab_bringup.pc'
+[4.667s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/lib/python3.10/site-packages'
+[4.667s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/bin'
+[4.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/package.ps1'
+[4.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/package.dsv'
+[4.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/package.sh'
+[4.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/package.bash'
+[4.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/package.zsh'
+[4.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/colcon-core/packages/turtlebot_lab_bringup)
+[4.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_lab_bringup)
+[4.707s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup' for CMake module files
+[4.708s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup' for CMake config files
+[4.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_lab_bringup', 'cmake_prefix_path')
+[4.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/hook/cmake_prefix_path.ps1'
+[4.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/hook/cmake_prefix_path.dsv'
+[4.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/hook/cmake_prefix_path.sh'
+[4.710s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/bin'
+[4.711s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/lib/pkgconfig/turtlebot_lab_bringup.pc'
+[4.711s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/lib/python3.10/site-packages'
+[4.711s] Level 1:colcon.colcon_core.environment:checking '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/bin'
+[4.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/package.ps1'
+[4.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/package.dsv'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/package.sh'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/package.bash'
+[4.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/turtlebot_lab_bringup/package.zsh'
+[4.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/turtlebot_lab_bringup/share/colcon-core/packages/turtlebot_lab_bringup)
+[4.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.721s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.757s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.757s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.757s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.774s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.775s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/local_setup.ps1'
+[4.803s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/_local_setup_util_ps1.py'
+[4.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/setup.ps1'
+[4.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/local_setup.sh'
+[4.830s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/_local_setup_util_sh.py'
+[4.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/setup.sh'
+[4.837s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/local_setup.bash'
+[4.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/setup.bash'
+[4.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/local_setup.zsh'
+[4.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/setup.zsh'

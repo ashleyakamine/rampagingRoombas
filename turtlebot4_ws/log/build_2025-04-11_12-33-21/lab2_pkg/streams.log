@@ -1,0 +1,21 @@
+[2.169s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/install.log --single-version-externally-managed install_data
+[2.406s] running egg_info
+[2.406s] writing ../../build/lab2_pkg/lab2_pkg.egg-info/PKG-INFO
+[2.407s] writing dependency_links to ../../build/lab2_pkg/lab2_pkg.egg-info/dependency_links.txt
+[2.408s] writing entry points to ../../build/lab2_pkg/lab2_pkg.egg-info/entry_points.txt
+[2.410s] writing requirements to ../../build/lab2_pkg/lab2_pkg.egg-info/requires.txt
+[2.411s] writing top-level names to ../../build/lab2_pkg/lab2_pkg.egg-info/top_level.txt
+[2.414s] reading manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[2.417s] writing manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[2.417s] running build
+[2.417s] running build_py
+[2.418s] running install
+[2.418s] running install_lib
+[2.419s] running install_data
+[2.419s] running install_egg_info
+[2.420s] removing '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.420s] Copying ../../build/lab2_pkg/lab2_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info
+[2.423s] running install_scripts
+[2.442s] Installing speed_cap_obstacle_detect_node script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/lab2_pkg
+[2.444s] writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/install.log'
+[2.536s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab2_pkg' returned '0': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab2_pkg/install.log --single-version-externally-managed install_data

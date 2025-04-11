@@ -1,0 +1,4 @@
+[console_scripts]
+go_to_goal = lab6_pkg.go_to_goal_server:main
+go_to_goal_client = lab6_pkg.go_to_goal_client:main
+
