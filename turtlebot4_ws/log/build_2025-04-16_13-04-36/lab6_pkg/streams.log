@@ -1,0 +1,25 @@
+[1.351s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab6_pkg': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab6_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab6_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab6_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab6_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab6_pkg/install.log --single-version-externally-managed install_data
+[1.571s] running egg_info
+[1.572s] writing ../../build/lab6_pkg/lab6_pkg.egg-info/PKG-INFO
+[1.572s] writing dependency_links to ../../build/lab6_pkg/lab6_pkg.egg-info/dependency_links.txt
+[1.572s] writing entry points to ../../build/lab6_pkg/lab6_pkg.egg-info/entry_points.txt
+[1.572s] writing requirements to ../../build/lab6_pkg/lab6_pkg.egg-info/requires.txt
+[1.572s] writing top-level names to ../../build/lab6_pkg/lab6_pkg.egg-info/top_level.txt
+[1.575s] reading manifest file '../../build/lab6_pkg/lab6_pkg.egg-info/SOURCES.txt'
+[1.576s] writing manifest file '../../build/lab6_pkg/lab6_pkg.egg-info/SOURCES.txt'
+[1.576s] running build
+[1.576s] running build_py
+[1.576s] copying lab6_pkg/go_to_goal_server.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab6_pkg/build/lib/lab6_pkg
+[1.576s] running install
+[1.577s] running install_lib
+[1.578s] copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab6_pkg/build/lib/lab6_pkg/go_to_goal_server.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab6_pkg/lib/python3.10/site-packages/lab6_pkg
+[1.579s] byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab6_pkg/lib/python3.10/site-packages/lab6_pkg/go_to_goal_server.py to go_to_goal_server.cpython-310.pyc
+[1.583s] running install_data
+[1.583s] running install_egg_info
+[1.585s] removing '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab6_pkg/lib/python3.10/site-packages/lab6_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.585s] Copying ../../build/lab6_pkg/lab6_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab6_pkg/lib/python3.10/site-packages/lab6_pkg-0.0.0-py3.10.egg-info
+[1.587s] running install_scripts
+[1.613s] Installing go_to_goal script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab6_pkg/lib/lab6_pkg
+[1.613s] Installing go_to_goal_client script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab6_pkg/lib/lab6_pkg
+[1.613s] writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab6_pkg/install.log'
+[1.658s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab6_pkg' returned '0': PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab6_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab6_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab6_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab6_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab6_pkg/install.log --single-version-externally-managed install_data

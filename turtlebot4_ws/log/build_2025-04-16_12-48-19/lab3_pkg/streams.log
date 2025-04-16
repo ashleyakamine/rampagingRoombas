@@ -1,0 +1,22 @@
+[0.749s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab3_pkg': AMENT_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab3_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/install.log --single-version-externally-managed install_data
+[0.923s] running egg_info
+[0.923s] writing ../../build/lab3_pkg/lab3_pkg.egg-info/PKG-INFO
+[0.924s] writing dependency_links to ../../build/lab3_pkg/lab3_pkg.egg-info/dependency_links.txt
+[0.924s] writing entry points to ../../build/lab3_pkg/lab3_pkg.egg-info/entry_points.txt
+[0.924s] writing requirements to ../../build/lab3_pkg/lab3_pkg.egg-info/requires.txt
+[0.924s] writing top-level names to ../../build/lab3_pkg/lab3_pkg.egg-info/top_level.txt
+[0.926s] reading manifest file '../../build/lab3_pkg/lab3_pkg.egg-info/SOURCES.txt'
+[0.927s] writing manifest file '../../build/lab3_pkg/lab3_pkg.egg-info/SOURCES.txt'
+[0.927s] running build
+[0.927s] running build_py
+[0.927s] running install
+[0.928s] running install_lib
+[0.929s] running install_data
+[0.929s] running install_egg_info
+[0.931s] removing '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages/lab3_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.931s] Copying ../../build/lab3_pkg/lab3_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages/lab3_pkg-0.0.0-py3.10.egg-info
+[0.932s] running install_scripts
+[0.952s] Installing battery_server_node script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/lab3_pkg
+[0.953s] Installing state_summary_client_node script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/lab3_pkg
+[0.953s] writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/install.log'
+[0.989s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/lab3_pkg' returned '0': AMENT_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/lab3_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab3_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/lab3_pkg/install.log --single-version-externally-managed install_data
