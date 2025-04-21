@@ -51,6 +51,11 @@ class GoToGoalNode(Node):
 
         # Empty lists to add obstacles to
         self.obstacle_space = []
+        
+        self.cost_map = None
+        self.cost_map_made = False
+        self.path = []
+        self.got_goal = False
 
         # Subscribe to the robot position
         self.pos_subscriber = self.create_subscription(PoseWithCovarianceStamped, '/robot2/pose', self.callback_pos, 10)
@@ -118,30 +123,31 @@ class GoToGoalNode(Node):
         directions = [(-1, 0), (1, 0), (0, -1), (0, 1),
                       (-1, -1), (-1, 1), (1, -1), (1, 1)]
 
-        while current != (goal_x, goal_y):
-            path.append(current)
-            visited.add(current)
-            neighbors = []
+        if self.cost_map_made == True:
+            while current != (goal_x, goal_y):
+                path.append(current)
+                visited.add(current)
+                neighbors = []
 
-            for dr, dc in directions:
-                nr, nc = current[0] + dr, current[1] + dc
-                if 0 <= nr < self.width and 0 <= nc < self.height:
-                    if (nr, nc) not in visited and self.cost_map[nr][nc] < 1000:
-                        neighbors.append((self.cost_map[nr][nc], (nr, nc)))
+                for dr, dc in directions:
+                    nr, nc = current[0] + dr, current[1] + dc
+                    if 0 <= nr < self.width and 0 <= nc < self.height:
+                        if (nr, nc) not in visited and self.cost_map[nr][nc] < 1000:
+                            neighbors.append((self.cost_map[nr][nc], (nr, nc)))
 
-            if not neighbors:
-                print("No path found.")
-                return
+                if not neighbors:
+                    print("No path found.")
+                    return
 
-            neighbors.sort()
-            next_node = neighbors[0][1]
-            print(f"Moving to {next_node} with cost {self.cost_map[next_node[0]][next_node[1]]}")
-            total_cost += self.cost_map[next_node[0]][next_node[1]]
-            current = next_node
+                neighbors.sort()
+                next_node = neighbors[0][1]
+                # print(f"Moving to {next_node} with cost {self.cost_map[next_node[0]][next_node[1]]}")
+                total_cost += self.cost_map[next_node[0]][next_node[1]]
+                current = next_node
 
-        path.append((goal_x, goal_y))
-        # self.visualize_path(path)
-        print(f"Path found! Total cost: {total_cost}")
+            path.append((goal_x, goal_y))
+            # self.visualize_path(path)
+            print(f"Path found! Total cost: {total_cost}")
 
         return path
 
@@ -152,8 +158,11 @@ class GoToGoalNode(Node):
         result = RobotGoal.Result()
 
         # using cost map, calc path from curr_pos to goal
-        path = self.greedy_path(goal_x, goal_y)
-        for point in path:
+        if len(self.path) == 0 and self.cost_map_made:
+            print("----- G PATH -------")
+            self.path = self.greedy_path(goal_x, goal_y)
+
+        for point in self.path:
             self.go_to_waypoint(point[0], point[1])
 
             curr_dist = math.sqrt(((goal_x - self.x) ** 2) + ((goal_y - self.y) ** 2))
@@ -199,6 +208,7 @@ class GoToGoalNode(Node):
             self.get_logger().info("Accepted goal")
             self.goal_x = goal_request.goal_x
             self.goal_y = goal_request.goal_y
+            self.got_goal = True
             return GoalResponse.ACCEPT
 
     # Callback for position
@@ -229,31 +239,36 @@ class GoToGoalNode(Node):
         
         # Occupancy grid data in one big list
         occupancy_grid = msg.data
-        self.cost_map = np.zeros((self.width, self.height))
-
-        # Empty lists to add obstacles to
-        self.obstacle_space = []
         
-        row = 0
-        while row < self.height:
-            col = 0
-            while col < self.width:
-                real_x,real_y = self.index_to_real(col,row)
-                point = occupancy_grid[col + (row*self.width)]
+        if self.got_goal == True:
+            row = 0
+            while row < self.height:
+                col = 0
+                while col < self.width:
+                    real_x,real_y = self.index_to_real(col,row)
+                    point = occupancy_grid[col + (row*self.width)]
 
-                if point > 25:
-                    self.obstacle_space.append([real_x, real_y])
+                    if point > 25:
+                        self.obstacle_space.append([real_x, real_y])
 
-                col += 1
-            row += 1
+                    col += 1
+                row += 1
 
-        row = 0
+            row = 0
 
+            if self.cost_map_made == False:
+                self.make_cost_map(row, col)
+
+    def make_cost_map(self, row, col):
+        self.cost_map_made = True
+        self.cost_map = np.zeros((self.width, self.height))  
+        print("Making cost map ONCE")
         while row < self.height:
             col = 0
             while col < self.width:
                 real_x,real_y = self.index_to_real(col,row)
                 for obs in self.obstacle_space:
+                    print(f"Seeing obs: {obs}")
                     obs_x, obs_y = obs[0],obs[1]
                     if self.euclidian_distance(obs_x, obs_y, real_x, real_y) < 0.3:
                         self.cost_map[col][row] == 1000
@@ -262,25 +277,6 @@ class GoToGoalNode(Node):
 
                 col += 1
             row += 1
-
-        self.map_image()
-
-    def map_image(self):
-        map_array = np.array(self.cost_map, dtype=np.int16)
-
-        image = np.ones((self.width, self.height, 3), dtype=np.uint8) * 255 
-
-        for i in range(self.width):
-            for j in range(self.height):
-                val = map_array[i, j]
-                if val == 1000:
-                    image[i, j] = [0, 0, 0]
-                elif val >= 0:
-                    image[i, j] = [190, 190, 190]
-
-        # output_path = os.path.join(os.path.expanduser('~/rampagingRoombas/ros2_ws/src/lab6_pkg'), 'cost_map.png')
-        # plt.imsave('./', image)
-        # self.get_logger().info(f"Map image with path saved to: {output_path}")
 
 
 
