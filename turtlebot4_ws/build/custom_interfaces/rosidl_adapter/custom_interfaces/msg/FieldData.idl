@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/FieldData.msg
+// generated code does not contain a copyright notice
+
+#include "nav_msgs/msg/OccupancyGrid.idl"
+
+module custom_interfaces {
+  module msg {
+    struct FieldData {
+      int64 goal_x;
+
+      int64 goal_y;
+
+      nav_msgs::msg::OccupancyGrid field_data;
+    };
+  };
+};

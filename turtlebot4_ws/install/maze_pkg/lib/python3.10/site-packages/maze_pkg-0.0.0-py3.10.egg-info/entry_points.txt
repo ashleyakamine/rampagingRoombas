@@ -1,0 +1,4 @@
+[console_scripts]
+goal_pub = maze_pkg.goal_pub:main
+potential_field = maze_pkg.potential_field:main
+

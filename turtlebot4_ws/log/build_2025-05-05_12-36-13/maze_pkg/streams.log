@@ -1,0 +1,46 @@
+[1.055s] Invoking command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/maze_pkg': AMENT_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/install.log --single-version-externally-managed install_data
+[1.271s] running egg_info
+[1.272s] creating ../../build/maze_pkg/maze_pkg.egg-info
+[1.272s] writing ../../build/maze_pkg/maze_pkg.egg-info/PKG-INFO
+[1.274s] writing dependency_links to ../../build/maze_pkg/maze_pkg.egg-info/dependency_links.txt
+[1.274s] writing entry points to ../../build/maze_pkg/maze_pkg.egg-info/entry_points.txt
+[1.274s] writing requirements to ../../build/maze_pkg/maze_pkg.egg-info/requires.txt
+[1.275s] writing top-level names to ../../build/maze_pkg/maze_pkg.egg-info/top_level.txt
+[1.275s] writing manifest file '../../build/maze_pkg/maze_pkg.egg-info/SOURCES.txt'
+[1.278s] reading manifest file '../../build/maze_pkg/maze_pkg.egg-info/SOURCES.txt'
+[1.279s] writing manifest file '../../build/maze_pkg/maze_pkg.egg-info/SOURCES.txt'
+[1.279s] running build
+[1.279s] running build_py
+[1.279s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build
+[1.279s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib
+[1.279s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg
+[1.280s] copying maze_pkg/__init__.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg
+[1.280s] copying maze_pkg/potential_field.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg
+[1.280s] copying maze_pkg/goal_pub.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg
+[1.281s] running install
+[1.282s] running install_lib
+[1.282s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg
+[1.282s] copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg/__init__.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg
+[1.283s] copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg/potential_field.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg
+[1.285s] copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg/goal_pub.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg
+[1.286s] byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg/__init__.py to __init__.cpython-310.pyc
+[1.287s] byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg/potential_field.py to potential_field.cpython-310.pyc
+[1.289s] byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg/goal_pub.py to goal_pub.cpython-310.pyc
+[1.290s]   File "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg/goal_pub.py", line 21
+[1.290s]     data.goal_x = 1, data.goal_y = 1
+[1.290s]     ^^^^^^^^^^^
+[1.290s] SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+[1.290s] 
+[1.290s] running install_data
+[1.290s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/share/ament_index
+[1.290s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/share/ament_index/resource_index
+[1.290s] creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/share/ament_index/resource_index/packages
+[1.290s] copying resource/maze_pkg -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/share/ament_index/resource_index/packages
+[1.291s] copying package.xml -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/share/maze_pkg
+[1.291s] running install_egg_info
+[1.293s] Copying ../../build/maze_pkg/maze_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg-0.0.0-py3.10.egg-info
+[1.297s] running install_scripts
+[1.331s] Installing goal_pub script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/maze_pkg
+[1.331s] Installing potential_field script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/maze_pkg
+[1.332s] writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/install.log'
+[1.531s] Invoked command in '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/src/maze_pkg' returned '0': AMENT_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces CMAKE_PREFIX_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/lib PYTHONPATH=/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages:/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/custom_interfaces/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_pkg build --build-base /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build install --record /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+int64 goal_x
+int64 goal_y
+nav_msgs/OccupancyGrid field_data

@@ -1,2 +1,3 @@
 /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/GetSummary.idl
 /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:action/RobotGoal.idl
+/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/FieldData.idl

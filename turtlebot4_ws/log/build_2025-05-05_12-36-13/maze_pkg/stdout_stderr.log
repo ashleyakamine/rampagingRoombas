@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/maze_pkg/maze_pkg.egg-info
+writing ../../build/maze_pkg/maze_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/maze_pkg/maze_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/maze_pkg/maze_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/maze_pkg/maze_pkg.egg-info/requires.txt
+writing top-level names to ../../build/maze_pkg/maze_pkg.egg-info/top_level.txt
+writing manifest file '../../build/maze_pkg/maze_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/maze_pkg/maze_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/maze_pkg/maze_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg
+copying maze_pkg/__init__.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg
+copying maze_pkg/potential_field.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg
+copying maze_pkg/goal_pub.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg
+running install
+running install_lib
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg
+copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg/__init__.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg
+copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg/potential_field.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg
+copying /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/build/lib/maze_pkg/goal_pub.py -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg
+byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg/potential_field.py to potential_field.cpython-310.pyc
+byte-compiling /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg/goal_pub.py to goal_pub.cpython-310.pyc
+  File "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg/goal_pub.py", line 21
+    data.goal_x = 1, data.goal_y = 1
+    ^^^^^^^^^^^
+SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+
+running install_data
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/share/ament_index
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/share/ament_index/resource_index
+creating /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/share/ament_index/resource_index/packages
+copying resource/maze_pkg -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/share/maze_pkg
+running install_egg_info
+Copying ../../build/maze_pkg/maze_pkg.egg-info to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing goal_pub script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/maze_pkg
+Installing potential_field script to /home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/maze_pkg
+writing list of installed files to '/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/build/maze_pkg/install.log'

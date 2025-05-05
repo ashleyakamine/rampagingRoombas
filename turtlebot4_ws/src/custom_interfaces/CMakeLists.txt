@@ -13,6 +13,8 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetSummary.srv"
   "action/RobotGoal.action"
+  "msg/FieldData.msg"
+  DEPENDENCIES nav_msgs geometry_msgs std_msgs actionlib_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)

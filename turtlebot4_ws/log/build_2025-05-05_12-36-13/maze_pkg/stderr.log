@@ -1,0 +1,5 @@
+  File "/home/ashley.akamine/rampagingRoombas/turtlebot4_ws/install/maze_pkg/lib/python3.10/site-packages/maze_pkg/goal_pub.py", line 21
+    data.goal_x = 1, data.goal_y = 1
+    ^^^^^^^^^^^
+SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+
