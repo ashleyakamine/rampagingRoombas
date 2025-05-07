@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'potential_field = maze_pkg.potential_field:main',
-            'goal_pub = maze_pkg.goal_pub:main'
+            'explorer = maze_pkg.algolism:main',
+            'go_to_goal = maze_pkg.go_to_goal:main',
         ],
     },
 )
